@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.Views.Transfer"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:BankApp.ViewModels"
+             BackgroundColor="#E3FCF7"
+             x:Name="transferPage">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+            EventName="Appearing"
+            Command="{Binding AppearingCommand}" />
+    </ContentPage.Behaviors>
+    <ContentPage.BindingContext>
+        <vm:TransferViewModel />
+    </ContentPage.BindingContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />            
+            <RowDefinition Height="*" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+        <StackLayout Orientation="Horizontal"
+          BackgroundColor="#ECECEC"
+          Padding="20"
+          Spacing="15">
+                <Label HorizontalTextAlignment="End"
+             Text="Current Balance"
+             FontSize="Default"
+             HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Label HorizontalTextAlignment="End"
+             Text="$ 25.000"
+             FontSize="Default"
+             HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+        <ListView ItemsSource="{Binding Transfers}"
+                  SelectionMode="None"
+                  Grid.Row="1"                   
+                  BackgroundColor="White">           
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="5" >
+                            <!--<CheckBox IsChecked="{Binding IsComplete}" VerticalOptions="Center" IsEnabled="{Binding IsMine}"  />-->
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Path=BindingContext.EditItemCommand, Source={x:Reference transfersPage}}"
+                                    CommandParameter="{Binding .}"/>
+                                </StackLayout.GestureRecognizers>
+                                <Label Text=" ■  " Padding="5"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center"/>
+                                <Label Text="{Binding Transfer_to}"
+                                    HorizontalOptions="FillAndExpand"
+                                    VerticalOptions="Center"/>
+                                <Label Text="{Binding Ammount, StringFormat=${0}}"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="Center"/>
+                                <Label Text="(mine)"
+                                   FontSize="Small"
+                                   Margin="15"
+                                   VerticalOptions="Center" HorizontalOptions="End" IsVisible="{Binding IsMine}"/>
+                            </StackLayout>                           
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Border BackgroundColor="White"
+                StrokeThickness="0"
+               Padding="8" Grid.Row="2">
+            <Button
+                Margin="5"
+                Text="New Transfer"
+                FontSize="Medium"
+                Command="{Binding AddTransferCommand}"
+            />
+        </Border>        
+    </Grid>
+</ContentPage>

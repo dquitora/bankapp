@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.Views.EditPaymentPage"
+             xmlns:vm="clr-namespace:BankApp.ViewModels"
+             Title="BankApp">
+    <ContentPage.BindingContext>
+        <vm:EditPaymentViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="10" Spacing="20">
+        <Label 
+        Text="{Binding PageHeader}"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        TextColor="{DynamicResource Primary}"/>
+        <Picker Title="Select Recipient" SelectedItem="{Binding Payment_to}">
+            <Picker.Items>
+                <x:String>Energy bill ending in **05</x:String>
+                <x:String>Parking Bill</x:String>
+                <x:String>House leasing ending in **74</x:String>
+                <x:String>Visa ending in **7854</x:String>
+                <x:String>Amex ending in **3671</x:String>
+                <x:String>Cell Phone Bill</x:String>
+                <x:String>Pet School</x:String>
+            </Picker.Items>
+        </Picker>
+        <Entry Text="{Binding Ammount_payment}" Placeholder="Ammount"  PlaceholderColor="#787878" Keyboard="Numeric"/>
+        <HorizontalStackLayout HorizontalOptions="Center" >
+            <Button  Margin="0,0,20,0" Text="Send Payment" Command="{Binding SavePaymentCommand}"/>
+            <Button  BackgroundColor="#454556"
+                Text="Cancel" Command="{Binding CancelCommand}"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.Views.EditTransferPage"
+             xmlns:vm="clr-namespace:BankApp.ViewModels"
+             Title="BankApp">
+    <ContentPage.BindingContext>
+        <vm:EditTransferViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="10" Spacing="20">
+        <Label 
+            Text="{Binding PageHeader}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="{DynamicResource Primary}"/>
+        <!--<Entry Text="{Binding Transfer_to}" Placeholder="Transfer To"  PlaceholderColor="#787878"/>-->
+        <Picker Title="Select Recipient" SelectedItem="{Binding Transfer_to}">
+            <Picker.Items>
+                <x:String>Joe Dumars</x:String>
+                <x:String>Latrell Sprewell</x:String>
+                <x:String>Ronnie Coleman</x:String>
+                <x:String>Squirrel Monkey</x:String>
+                <x:String>Golden Lion Tamarin</x:String>
+                <x:String>Howler Monkey</x:String>
+                <x:String>Japanese Macaque</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Entry Text="{Binding Ammount}" Placeholder="Ammount"  PlaceholderColor="#787878" Keyboard="Numeric"/>
+        <HorizontalStackLayout HorizontalOptions="Center" >
+            <Button  Margin="0,0,20,0" Text="OK" Command="{Binding SaveItemCommand}"/>
+            <Button  BackgroundColor="#454556"
+                    Text="Cancel" Command="{Binding CancelCommand}"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

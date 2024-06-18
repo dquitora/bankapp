@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankApp</name>
+    </assembly>
+    <members>
+        <member name="F:BankApp.Models.DebitPayment.RealmSchema">
+            <summary>
+            Defines the schema for the <see cref="T:BankApp.Models.DebitPayment"/> class.
+            </summary>
+        </member>
+        <member name="P:BankApp.Models.DebitPayment.IsManaged">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.DebitPayment.IsValid">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.DebitPayment.IsFrozen">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.DebitPayment.Realm">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.DebitPayment.ObjectSchema">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.DebitPayment.DynamicApi">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.DebitPayment.BacklinksCount">
+            <inheritdoc />
+        </member>
+        <member name="E:BankApp.Models.DebitPayment.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.DebitPayment.op_Explicit(Realms.RealmValue)~BankApp.Models.DebitPayment">
+            <summary>
+            Converts a <see cref="T:Realms.RealmValue"/> to <see cref="T:BankApp.Models.DebitPayment"/>. Equivalent to <see cref="M:Realms.RealmValue.AsNullableRealmObject``1"/>.
+            </summary>
+            <param name="val">The <see cref="T:Realms.RealmValue"/> to convert.</param>
+            <returns>The <see cref="T:BankApp.Models.DebitPayment"/> stored in the <see cref="T:Realms.RealmValue"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.DebitPayment.op_Implicit(BankApp.Models.DebitPayment)~Realms.RealmValue">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.RealmValue"/> from <see cref="T:BankApp.Models.DebitPayment"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.RealmValue"/>.</param>
+            <returns>A <see cref="T:Realms.RealmValue"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.DebitPayment.op_Implicit(BankApp.Models.DebitPayment)~Realms.QueryArgument">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.QueryArgument"/> from <see cref="T:BankApp.Models.DebitPayment"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.QueryArgument"/>.</param>
+            <returns>A <see cref="T:Realms.QueryArgument"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.DebitPayment.GetTypeInfo">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.DebitPayment.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.DebitPayment.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.DebitPayment.ToString">
+            <inheritdoc />
+        </member>
+        <member name="F:BankApp.Models.Item.RealmSchema">
+            <summary>
+            Defines the schema for the <see cref="T:BankApp.Models.Item"/> class.
+            </summary>
+        </member>
+        <member name="P:BankApp.Models.Item.IsManaged">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Item.IsValid">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Item.IsFrozen">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Item.Realm">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Item.ObjectSchema">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Item.DynamicApi">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Item.BacklinksCount">
+            <inheritdoc />
+        </member>
+        <member name="E:BankApp.Models.Item.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Item.op_Explicit(Realms.RealmValue)~BankApp.Models.Item">
+            <summary>
+            Converts a <see cref="T:Realms.RealmValue"/> to <see cref="T:BankApp.Models.Item"/>. Equivalent to <see cref="M:Realms.RealmValue.AsNullableRealmObject``1"/>.
+            </summary>
+            <param name="val">The <see cref="T:Realms.RealmValue"/> to convert.</param>
+            <returns>The <see cref="T:BankApp.Models.Item"/> stored in the <see cref="T:Realms.RealmValue"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Item.op_Implicit(BankApp.Models.Item)~Realms.RealmValue">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.RealmValue"/> from <see cref="T:BankApp.Models.Item"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.RealmValue"/>.</param>
+            <returns>A <see cref="T:Realms.RealmValue"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Item.op_Implicit(BankApp.Models.Item)~Realms.QueryArgument">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.QueryArgument"/> from <see cref="T:BankApp.Models.Item"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.QueryArgument"/>.</param>
+            <returns>A <see cref="T:Realms.QueryArgument"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Item.GetTypeInfo">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Item.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Item.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Item.ToString">
+            <inheritdoc />
+        </member>
+        <member name="F:BankApp.Models.Payment.RealmSchema">
+            <summary>
+            Defines the schema for the <see cref="T:BankApp.Models.Payment"/> class.
+            </summary>
+        </member>
+        <member name="P:BankApp.Models.Payment.IsManaged">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Payment.IsValid">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Payment.IsFrozen">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Payment.Realm">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Payment.ObjectSchema">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Payment.DynamicApi">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Payment.BacklinksCount">
+            <inheritdoc />
+        </member>
+        <member name="E:BankApp.Models.Payment.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Payment.op_Explicit(Realms.RealmValue)~BankApp.Models.Payment">
+            <summary>
+            Converts a <see cref="T:Realms.RealmValue"/> to <see cref="T:BankApp.Models.Payment"/>. Equivalent to <see cref="M:Realms.RealmValue.AsNullableRealmObject``1"/>.
+            </summary>
+            <param name="val">The <see cref="T:Realms.RealmValue"/> to convert.</param>
+            <returns>The <see cref="T:BankApp.Models.Payment"/> stored in the <see cref="T:Realms.RealmValue"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Payment.op_Implicit(BankApp.Models.Payment)~Realms.RealmValue">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.RealmValue"/> from <see cref="T:BankApp.Models.Payment"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.RealmValue"/>.</param>
+            <returns>A <see cref="T:Realms.RealmValue"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Payment.op_Implicit(BankApp.Models.Payment)~Realms.QueryArgument">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.QueryArgument"/> from <see cref="T:BankApp.Models.Payment"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.QueryArgument"/>.</param>
+            <returns>A <see cref="T:Realms.QueryArgument"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Payment.GetTypeInfo">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Payment.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Payment.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Payment.ToString">
+            <inheritdoc />
+        </member>
+        <member name="F:BankApp.Models.Transfer.RealmSchema">
+            <summary>
+            Defines the schema for the <see cref="T:BankApp.Models.Transfer"/> class.
+            </summary>
+        </member>
+        <member name="P:BankApp.Models.Transfer.IsManaged">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Transfer.IsValid">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Transfer.IsFrozen">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Transfer.Realm">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Transfer.ObjectSchema">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Transfer.DynamicApi">
+            <inheritdoc />
+        </member>
+        <member name="P:BankApp.Models.Transfer.BacklinksCount">
+            <inheritdoc />
+        </member>
+        <member name="E:BankApp.Models.Transfer.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Transfer.op_Explicit(Realms.RealmValue)~BankApp.Models.Transfer">
+            <summary>
+            Converts a <see cref="T:Realms.RealmValue"/> to <see cref="T:BankApp.Models.Transfer"/>. Equivalent to <see cref="M:Realms.RealmValue.AsNullableRealmObject``1"/>.
+            </summary>
+            <param name="val">The <see cref="T:Realms.RealmValue"/> to convert.</param>
+            <returns>The <see cref="T:BankApp.Models.Transfer"/> stored in the <see cref="T:Realms.RealmValue"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Transfer.op_Implicit(BankApp.Models.Transfer)~Realms.RealmValue">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.RealmValue"/> from <see cref="T:BankApp.Models.Transfer"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.RealmValue"/>.</param>
+            <returns>A <see cref="T:Realms.RealmValue"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Transfer.op_Implicit(BankApp.Models.Transfer)~Realms.QueryArgument">
+            <summary>
+            Implicitly constructs a <see cref="T:Realms.QueryArgument"/> from <see cref="T:BankApp.Models.Transfer"/>.
+            </summary>
+            <param name="val">The value to store in the <see cref="T:Realms.QueryArgument"/>.</param>
+            <returns>A <see cref="T:Realms.QueryArgument"/> containing the supplied <paramref name="val"/>.</returns>
+        </member>
+        <member name="M:BankApp.Models.Transfer.GetTypeInfo">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Transfer.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Transfer.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApp.Models.Transfer.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:BankApp.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:BankApp.ViewModels.BaseViewModel.isBusy"/>
+        </member>
+        <member name="M:BankApp.ViewModels.BaseViewModel.OnIsBusyChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:BankApp.ViewModels.BaseViewModel.IsBusy"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:BankApp.ViewModels.BaseViewModel.IsBusy"/> is changed.</remarks>
+        </member>
+        <member name="T:BankApp.ViewModels.DebitPaymentViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.ConnectionStatusIcon">
+            <inheritdoc cref="F:BankApp.ViewModels.DebitPaymentViewModel.connectionStatusIcon"/>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.IsShowAllTasks">
+            <inheritdoc cref="F:BankApp.ViewModels.DebitPaymentViewModel.isShowAllTasks"/>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.DebitPayments">
+            <inheritdoc cref="F:BankApp.ViewModels.DebitPaymentViewModel.debitPayments"/>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.DataExplorerLink">
+            <inheritdoc cref="F:BankApp.ViewModels.DebitPaymentViewModel.dataExplorerLink"/>
+        </member>
+        <member name="M:BankApp.ViewModels.DebitPaymentViewModel.OnIsShowAllTasksChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.IsShowAllTasks"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.IsShowAllTasks"/> is changed.</remarks>
+        </member>
+        <member name="F:BankApp.ViewModels.DebitPaymentViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.DebitPaymentViewModel.OnAppearing"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.DebitPaymentViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.DebitPaymentViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.DebitPaymentViewModel.addItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.AddItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.AddItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.DebitPaymentViewModel.AddItem"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.DebitPaymentViewModel.editItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.EditItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.EditItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.DebitPaymentViewModel.EditItem(BankApp.Models.DebitPayment)"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.DebitPaymentViewModel.deleteItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.DeleteItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.DeleteItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.DebitPaymentViewModel.DeleteItem(BankApp.Models.DebitPayment)"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.DebitPaymentViewModel.changeConnectionStatusCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.ChangeConnectionStatusCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.ChangeConnectionStatusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.DebitPaymentViewModel.ChangeConnectionStatus"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.DebitPaymentViewModel.urlTapCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.DebitPaymentViewModel.UrlTapCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.DebitPaymentViewModel.UrlTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.DebitPaymentViewModel.UrlTap(System.String)"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.EditDebitPaymentViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditDebitPaymentViewModel.InitialDebitPayment">
+            <inheritdoc cref="F:BankApp.ViewModels.EditDebitPaymentViewModel.initialDebitPayment"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditDebitPaymentViewModel.Debit_payment_to">
+            <inheritdoc cref="F:BankApp.ViewModels.EditDebitPaymentViewModel.debit_payment_to"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditDebitPaymentViewModel.Ammount_debit">
+            <inheritdoc cref="F:BankApp.ViewModels.EditDebitPaymentViewModel.ammount_debit"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditDebitPaymentViewModel.PageHeader">
+            <inheritdoc cref="F:BankApp.ViewModels.EditDebitPaymentViewModel.pageHeader"/>
+        </member>
+        <member name="F:BankApp.ViewModels.EditDebitPaymentViewModel.saveItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditDebitPaymentViewModel.SaveItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditDebitPaymentViewModel.SaveItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditDebitPaymentViewModel.SaveItem"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.EditDebitPaymentViewModel.cancelCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditDebitPaymentViewModel.CancelCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditDebitPaymentViewModel.CancelCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditDebitPaymentViewModel.Cancel"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.EditItemViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditItemViewModel.InitialItem">
+            <inheritdoc cref="F:BankApp.ViewModels.EditItemViewModel.initialItem"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditItemViewModel.Summary">
+            <inheritdoc cref="F:BankApp.ViewModels.EditItemViewModel.summary"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditItemViewModel.PageHeader">
+            <inheritdoc cref="F:BankApp.ViewModels.EditItemViewModel.pageHeader"/>
+        </member>
+        <member name="F:BankApp.ViewModels.EditItemViewModel.saveItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditItemViewModel.SaveItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditItemViewModel.SaveItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditItemViewModel.SaveItem"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.EditItemViewModel.cancelCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditItemViewModel.CancelCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditItemViewModel.CancelCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditItemViewModel.Cancel"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.EditPaymentViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditPaymentViewModel.InitialPayment">
+            <inheritdoc cref="F:BankApp.ViewModels.EditPaymentViewModel.initialPayment"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditPaymentViewModel.Payment_to">
+            <inheritdoc cref="F:BankApp.ViewModels.EditPaymentViewModel.payment_to"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditPaymentViewModel.Ammount_payment">
+            <inheritdoc cref="F:BankApp.ViewModels.EditPaymentViewModel.ammount_payment"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditPaymentViewModel.PageHeader">
+            <inheritdoc cref="F:BankApp.ViewModels.EditPaymentViewModel.pageHeader"/>
+        </member>
+        <member name="F:BankApp.ViewModels.EditPaymentViewModel.savePaymentCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditPaymentViewModel.SavePaymentCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditPaymentViewModel.SavePaymentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditPaymentViewModel.SavePayment"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.EditPaymentViewModel.cancelCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditPaymentViewModel.CancelCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditPaymentViewModel.CancelCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditPaymentViewModel.Cancel"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.EditTransferViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditTransferViewModel.InitialItem">
+            <inheritdoc cref="F:BankApp.ViewModels.EditTransferViewModel.initialItem"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditTransferViewModel.Transfer_to">
+            <inheritdoc cref="F:BankApp.ViewModels.EditTransferViewModel.transfer_to"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditTransferViewModel.Ammount">
+            <inheritdoc cref="F:BankApp.ViewModels.EditTransferViewModel.ammount"/>
+        </member>
+        <member name="P:BankApp.ViewModels.EditTransferViewModel.PageHeader">
+            <inheritdoc cref="F:BankApp.ViewModels.EditTransferViewModel.pageHeader"/>
+        </member>
+        <member name="F:BankApp.ViewModels.EditTransferViewModel.saveItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditTransferViewModel.SaveItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditTransferViewModel.SaveItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditTransferViewModel.SaveItem"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.EditTransferViewModel.cancelCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.EditTransferViewModel.CancelCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.EditTransferViewModel.CancelCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.EditTransferViewModel.Cancel"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.ItemsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.ConnectionStatusIcon">
+            <inheritdoc cref="F:BankApp.ViewModels.ItemsViewModel.connectionStatusIcon"/>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.IsShowAllTasks">
+            <inheritdoc cref="F:BankApp.ViewModels.ItemsViewModel.isShowAllTasks"/>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.Items">
+            <inheritdoc cref="F:BankApp.ViewModels.ItemsViewModel.items"/>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.DataExplorerLink">
+            <inheritdoc cref="F:BankApp.ViewModels.ItemsViewModel.dataExplorerLink"/>
+        </member>
+        <member name="M:BankApp.ViewModels.ItemsViewModel.OnIsShowAllTasksChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:BankApp.ViewModels.ItemsViewModel.IsShowAllTasks"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:BankApp.ViewModels.ItemsViewModel.IsShowAllTasks"/> is changed.</remarks>
+        </member>
+        <member name="F:BankApp.ViewModels.ItemsViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.ItemsViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.ItemsViewModel.OnAppearing"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.ItemsViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.ItemsViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.ItemsViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.ItemsViewModel.addItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.ItemsViewModel.AddItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.AddItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.ItemsViewModel.AddItem"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.ItemsViewModel.editItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.ItemsViewModel.EditItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.EditItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.ItemsViewModel.EditItem(BankApp.Models.Item)"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.ItemsViewModel.deleteItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.ItemsViewModel.DeleteItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.DeleteItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.ItemsViewModel.DeleteItem(BankApp.Models.Item)"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.ItemsViewModel.changeConnectionStatusCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.ItemsViewModel.ChangeConnectionStatusCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.ChangeConnectionStatusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.ItemsViewModel.ChangeConnectionStatus"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.ItemsViewModel.urlTapCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.ItemsViewModel.UrlTapCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.ItemsViewModel.UrlTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.ItemsViewModel.UrlTap(System.String)"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.LoginViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:BankApp.ViewModels.LoginViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.LoginViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.LoginViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.LoginViewModel.OnAppearing"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.LoginViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.LoginViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.LoginViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.LoginViewModel.Login"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.LoginViewModel.signUpCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.LoginViewModel.SignUpCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.LoginViewModel.SignUpCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.LoginViewModel.SignUp"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.PaymentViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.ConnectionStatusIcon">
+            <inheritdoc cref="F:BankApp.ViewModels.PaymentViewModel.connectionStatusIcon"/>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.IsShowAllTasks">
+            <inheritdoc cref="F:BankApp.ViewModels.PaymentViewModel.isShowAllTasks"/>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.Payments">
+            <inheritdoc cref="F:BankApp.ViewModels.PaymentViewModel.payments"/>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.DataExplorerLink">
+            <inheritdoc cref="F:BankApp.ViewModels.PaymentViewModel.dataExplorerLink"/>
+        </member>
+        <member name="M:BankApp.ViewModels.PaymentViewModel.OnIsShowAllTasksChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:BankApp.ViewModels.PaymentViewModel.IsShowAllTasks"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:BankApp.ViewModels.PaymentViewModel.IsShowAllTasks"/> is changed.</remarks>
+        </member>
+        <member name="F:BankApp.ViewModels.PaymentViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.PaymentViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.PaymentViewModel.OnAppearing"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.PaymentViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.PaymentViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.PaymentViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.PaymentViewModel.addItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.PaymentViewModel.AddItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.AddItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.PaymentViewModel.AddItem"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.PaymentViewModel.editItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.PaymentViewModel.EditItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.EditItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.PaymentViewModel.EditItem(BankApp.Models.Payment)"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.PaymentViewModel.deleteItemCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.PaymentViewModel.DeleteItemCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.DeleteItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.PaymentViewModel.DeleteItem(BankApp.Models.Payment)"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.PaymentViewModel.changeConnectionStatusCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.PaymentViewModel.ChangeConnectionStatusCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.ChangeConnectionStatusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.PaymentViewModel.ChangeConnectionStatus"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.PaymentViewModel.urlTapCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.PaymentViewModel.UrlTapCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.PaymentViewModel.UrlTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.PaymentViewModel.UrlTap(System.String)"/>.</summary>
+        </member>
+        <member name="T:BankApp.ViewModels.TransferViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.ConnectionStatusIcon">
+            <inheritdoc cref="F:BankApp.ViewModels.TransferViewModel.connectionStatusIcon"/>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.IsShowAllTasks">
+            <inheritdoc cref="F:BankApp.ViewModels.TransferViewModel.isShowAllTasks"/>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.Transfers">
+            <inheritdoc cref="F:BankApp.ViewModels.TransferViewModel.transfers"/>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.DataExplorerLink">
+            <inheritdoc cref="F:BankApp.ViewModels.TransferViewModel.dataExplorerLink"/>
+        </member>
+        <member name="M:BankApp.ViewModels.TransferViewModel.OnIsShowAllTasksChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:BankApp.ViewModels.TransferViewModel.IsShowAllTasks"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:BankApp.ViewModels.TransferViewModel.IsShowAllTasks"/> is changed.</remarks>
+        </member>
+        <member name="F:BankApp.ViewModels.TransferViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.TransferViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.TransferViewModel.OnAppearing"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.TransferViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.TransferViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.TransferViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.TransferViewModel.addTransferCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.TransferViewModel.AddTransferCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.AddTransferCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.TransferViewModel.AddTransfer"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.TransferViewModel.changeConnectionStatusCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.TransferViewModel.ChangeConnectionStatusCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.ChangeConnectionStatusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:BankApp.ViewModels.TransferViewModel.ChangeConnectionStatus"/>.</summary>
+        </member>
+        <member name="F:BankApp.ViewModels.TransferViewModel.urlTapCommand">
+            <summary>The backing field for <see cref="P:BankApp.ViewModels.TransferViewModel.UrlTapCommand"/>.</summary>
+        </member>
+        <member name="P:BankApp.ViewModels.TransferViewModel.UrlTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:BankApp.ViewModels.TransferViewModel.UrlTap(System.String)"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ConnectionStatusIcon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ConnectionStatusIcon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsShowAllTasks">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsShowAllTasks" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DebitPayments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DebitPayments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DataExplorerLink">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DataExplorerLink" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InitialDebitPayment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InitialDebitPayment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Debit_payment_to">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Debit_payment_to" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ammount_debit">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ammount_debit" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PageHeader">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PageHeader" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InitialItem">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InitialItem" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Summary">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Summary" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InitialPayment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InitialPayment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Payment_to">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Payment_to" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ammount_payment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ammount_payment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Transfer_to">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Transfer_to" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ammount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ammount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Payments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Payments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Transfers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Transfers" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ConnectionStatusIcon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ConnectionStatusIcon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsShowAllTasks">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsShowAllTasks" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DebitPayments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DebitPayments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DataExplorerLink">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DataExplorerLink" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InitialDebitPayment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InitialDebitPayment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Debit_payment_to">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Debit_payment_to" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ammount_debit">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ammount_debit" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PageHeader">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PageHeader" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InitialItem">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InitialItem" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Summary">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Summary" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InitialPayment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InitialPayment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Payment_to">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Payment_to" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ammount_payment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ammount_payment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Transfer_to">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Transfer_to" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ammount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ammount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Payments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Payments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Transfers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Transfers" generated properties.</summary>
+        </member>
+    </members>
+</doc>

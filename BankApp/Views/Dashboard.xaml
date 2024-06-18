@@ -1,0 +1,19 @@
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:BankApp.Views"
+       x:Class="BankApp.Views.Dashboard">
+    <TabBar>
+        <ShellContent Title="Transfer"
+                     Icon="transfer.svg"
+                     ContentTemplate="{DataTemplate views:Transfer}" />
+        <ShellContent Title="Payments"
+                     Icon="apayment.svg"
+                     ContentTemplate="{DataTemplate views:PaymentPage}" />
+        <ShellContent Title="Debit Payment"
+                     Icon="payment.svg"
+                     ContentTemplate="{DataTemplate views:DebitPaymentPage}" />
+        <ShellContent Title="Todo List"
+                     Icon="listcheck.svg"
+                     ContentTemplate="{DataTemplate views:ItemsPage}" />    
+    </TabBar>
+</Shell>

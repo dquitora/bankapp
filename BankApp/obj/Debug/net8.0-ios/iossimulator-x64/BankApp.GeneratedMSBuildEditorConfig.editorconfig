@@ -1,0 +1,107 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BankApp
+build_property.ProjectDir = L:\MAUI\BankApp\BankApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[L:/MAUI/BankApp/BankApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[L:/MAUI/BankApp/BankApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[L:/MAUI/BankApp/BankApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[L:/MAUI/BankApp/BankApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/BusyPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.BusyPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BusyPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BusyPopup.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/Dashboard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.Dashboard.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dashboard.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dashboard.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/DebitPaymentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.DebitPaymentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DebitPaymentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DebitPaymentPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/EditDebitPaymentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.EditDebitPaymentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditDebitPaymentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditDebitPaymentPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/EditItemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.EditItemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditItemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditItemPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/EditPaymentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.EditPaymentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditPaymentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditPaymentPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/EditTransferPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.EditTransferPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditTransferPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditTransferPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/ItemsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.ItemsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ItemsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ItemsPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/PaymentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.PaymentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PaymentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PaymentPage.xaml
+
+[L:/MAUI/BankApp/BankApp/Views/Transfer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BankApp.Views.Transfer.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Transfer.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Transfer.xaml
